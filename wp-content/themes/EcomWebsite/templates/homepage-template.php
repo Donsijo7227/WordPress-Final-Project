@@ -46,7 +46,11 @@ get_header();
     <div class="pro-container">
 
         <div class="pro">
-            <img src="<?php $image_url = get_field('featured_product_one_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_one_image_alt_text')); ?>">
+
+            <a href="http://localhost/ecomwebsite/product/adidas/">
+                <img src="<?php $image_url = get_field('featured_product_one_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_one_image_alt_text')); ?>">
+            </a>
+
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_one_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_one_name')); ?></h5>
@@ -54,7 +58,9 @@ get_header();
         </div>
 
         <div class="pro">
+            <a href="http://localhost/ecomwebsite/product/adidas-2/">
             <img src="<?php $image_url = get_field('featured_product_two_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_two_image_alt_text')); ?>">
+            </a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_two_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_two_name')); ?></h5>
@@ -62,15 +68,19 @@ get_header();
         </div>
 
         <div class="pro">
+            <a href="http://localhost/ecomwebsite/product/vh/">
             <img src="<?php $image_url = get_field('featured_product_three_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_three_image_alt_text')); ?>">
-            <div class="des">
+            </a>
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_three_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_three_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/lp/">
             <img src="<?php $image_url = get_field('featured_product_four_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_four_image_alt_text')); ?>">
+</a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_four_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_four_name')); ?></h5>
@@ -78,7 +88,9 @@ get_header();
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/vh-2/">
             <img src="<?php $image_url = get_field('featured_product_five_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_five_image_alt_text')); ?>">
+</a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_five_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_five_name')); ?></h5>
@@ -86,7 +98,9 @@ get_header();
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/hm/">
             <img src="<?php $image_url = get_field('featured_product_six_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_six_image_alt_text')); ?>">
+</a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_six_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_six_name')); ?></h5>
@@ -94,7 +108,9 @@ get_header();
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/hm-2/">
             <img src="<?php $image_url = get_field('featured_product_seven_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_seven_image_alt_text')); ?>">
+</a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_seven_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_seven_name')); ?></h5>
@@ -102,7 +118,9 @@ get_header();
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/vh-3/">
             <img src="<?php $image_url = get_field('featured_product_eight_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('featured_product_eight_image_alt_text')); ?>">
+        </a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('featured_product_eight_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('featured_product_eight_name')); ?></h5>
@@ -124,55 +142,69 @@ get_header();
     <div class="pro-container">
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/canada-goose/">
            <img src="<?php $image_url = get_field('new_arrivals_one_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_one_image_alt_text')); ?>">
-            <div class="des">
+           </a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_one_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_one_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/encircled/">
            <img src="<?php $image_url = get_field('new_arrivals_two_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_two_image_alt_text')); ?>">
-            <div class="des">
+</a>
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_two_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_two_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/tentree/">
            <img src="<?php $image_url = get_field('new_arrivals_three_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_three_image_alt_text')); ?>">
-            <div class="des">
+</a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_three_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_three_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/club-monaco/">
            <img src="<?php $image_url = get_field('new_arrivals_four_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_four_image_alt_text')); ?>">
-            <div class="des">
+</a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_four_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_four_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/club-monaco-2/">
            <img src="<?php $image_url = get_field('new_arrivals_five_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_five_image_alt_text')); ?>">
-            <div class="des">
+</a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_five_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_five_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/club-monaco-3/">
            <img src="<?php $image_url = get_field('new_arrivals_six_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_six_image_alt_text')); ?>">
-            <div class="des">
+</a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_six_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_six_name')); ?></h5>
             </div>
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/club-monaco-4/">
            <img src="<?php $image_url = get_field('new_arrivals_seven_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_seven_image_alt_text')); ?>">
+</a>
             <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_seven_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_seven_name')); ?></h5>
@@ -180,8 +212,10 @@ get_header();
         </div>
 
         <div class="pro">
+        <a href="http://localhost/ecomwebsite/product/club-monaco-5/">
            <img src="<?php $image_url = get_field('new_arrivals_eight_image'); if (is_array($image_url)) { echo esc_url($image_url['url']); } else { echo esc_url($image_url); } ?>" alt="<?php echo esc_attr(get_field('new_arrivals_eight_image_alt_text')); ?>">
-            <div class="des">
+</a> 
+           <div class="des">
                 <span><?php echo wp_kses_post(get_field('new_arrivals_eight_brand')); ?></span>
                 <h5><?php echo wp_kses_post(get_field('new_arrivals_eight_name')); ?></h5>
             </div>
